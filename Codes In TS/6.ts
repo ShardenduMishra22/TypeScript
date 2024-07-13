@@ -5,7 +5,7 @@ let a = ((name : string) : string => {
 console.log(a("Shardendu Mishra"));
 
 let Name = ["Shardendu","Mishra","Pandit","Ji"]
-Name.map((name) => {
+Name.map((name) : void => {
     console.log(`${name} is Present !!`);
 });
 

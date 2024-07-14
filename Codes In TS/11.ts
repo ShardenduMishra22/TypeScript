@@ -17,4 +17,10 @@ let Shardendu : (User | Admin) = {
     username : "Shardendu Mishra",
     id : 122,
 
-}  
+};
+
+Shardendu = {
+    name : "Mishra Shardendu",
+    id : 122,
+}
+

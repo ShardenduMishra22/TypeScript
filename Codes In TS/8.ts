@@ -19,6 +19,6 @@ AllUser.push({
     email : "shardendumishra@gmail.com", 
     age   : 20,
     
-})
+});
 
 export {};

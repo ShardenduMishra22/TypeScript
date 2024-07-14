@@ -1,4 +1,4 @@
-class User {
+class User55 {
     email: string;
     private name: string;
     readonly city: string;
@@ -18,13 +18,13 @@ class User {
     }
 }
 
-let u1 = new User('shardendumishra01@gmail.com', 'Shardendu Mishra');
+let u1 = new User55('shardendumishra01@gmail.com', 'Shardendu Mishra');
 console.log(u1);
 console.log(u1.getName());
 
 u1.setName('Shardendu');
 console.log(u1.getName());
 
-let u2 = new User('shardendumishra01@gmail.com', 'Shardendu Mishra', 'Kanpur');
+let u2 = new User55('shardendumishra01@gmail.com', 'Shardendu Mishra', 'Kanpur');
 console.log(u2);
 console.log(u2.city);

@@ -3,7 +3,7 @@ let Score : number | string ;
 Score = 341
 Score = "2"
 
-type User = {
+type User_22 = {
     name : string;
     id : number;
 }
@@ -13,7 +13,7 @@ type Admin = {
     id : number;
 }
 
-let Shardendu : (User | Admin) = {
+let Shardendu : (User_22 | Admin) = {
     username : "Shardendu Mishra",
     id : 122,
 
